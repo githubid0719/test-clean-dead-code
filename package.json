@@ -1,0 +1,33 @@
+{
+  "name": "test-clean-dead-code",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production",
+    "lint": "eslint --ext .ts,.tsx src"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/react": "^17.0.88",
+    "@types/react-dom": "^17.0.26",
+    "@typescript-eslint/eslint-plugin": "~4.33.0",
+    "@typescript-eslint/parser": "~4.33.0",
+    "css-loader": "^5.2.7",
+    "eslint": "~7.32.0",
+    "eslint-plugin-react": "~7.24.0",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "html-webpack-plugin": "^4.5.2",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.4.0",
+    "typescript": "~4.3.5",
+    "webpack": "4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
