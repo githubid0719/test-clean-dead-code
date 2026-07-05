@@ -1,6 +1,7 @@
 import React from "react";
 
 import { ComponentA } from "../component/A";
+import { ProductTypeRender } from "../component/product-type";
 
 export const AboutPage = (): JSX.Element => {
   return (
@@ -11,6 +12,8 @@ export const AboutPage = (): JSX.Element => {
         这个页面展示了基础路由结构、导航和简单的页面布局，适合后续继续扩展业务页面。
       </p>
       <ComponentA />
+      <ProductTypeRender type="typeA" />
+      <ProductTypeRender type="typeB" />
       <ul className="feature-list">
         <li>React 17</li>
         <li>TypeScript 4.3.5</li>
